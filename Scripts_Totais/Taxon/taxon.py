@@ -5,8 +5,8 @@ from Bio import Entrez
 import pandas as pd
 
 # Configurações globais
-Entrez.email = "cadamuro.rafael@gmail.com"
-Entrez.api_key = "dad248454a51d9d946350764b56750f61a07"  # Sua chave API do NCBI
+Entrez.email = ""
+Entrez.api_key = ""  # Sua chave API do NCBI
 
 # Função para executar o BLAST
 def executar_blast(arquivo_entrada, output_dir, threads=60):
